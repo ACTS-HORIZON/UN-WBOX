@@ -1,0 +1,1 @@
+zip/map.json: ASCII text, with very long lines, with no line terminators

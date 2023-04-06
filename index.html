@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.acts-horizon.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://analytics.acts-horizon.com/matomo.php?idsite=5&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+</head>
+<body>
+
+<h1>Please select zip or unzip</h1>
+
+<h2>Instructions<h2>
+
+<ol>
+  <li>Upload "<i>map.wbox</i>" to unzip</li>
+
+  <li>Press <b><i>ctrl + s</i></b> to save the txt file to your computer</li>
+
+  <li>Edit the json file locally in your favorite editor (notepad for example)</li>
+
+  <p><i>I recommend an online json editor such as: <button class="button" onclick="location.href='https://jsoneditoronline.org/'">jsoneditoronline</button></p></i>
+
+  <li>Upload the json to zip</li>
+
+  <li>Move the new map.wbox back to your saves folder</li>
+</ol>
+
+<button class="button" onclick="location.href='unzip.html'">Unzip</button>
+<button class="button" onclick="location.href='zip.html'">Zip</button>
+
+</body>
+</html>
